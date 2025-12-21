@@ -1,0 +1,141 @@
+.advice {
+    background-color: #f5efe4;
+    padding: 4rem 1.5rem 4rem;
+}
+
+.advice__header {
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+}
+
+.advice__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #c96b36;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.advice__title {
+    font-size: 2.25rem;
+    margin: 0.5rem 0 1rem;
+    color: #3b2a1a;
+}
+
+.advice__subtitle {
+    color: #6b5a46;
+    line-height: 1.7;
+}
+
+.advice__main {
+    max-width: 1100px;
+    margin: 0 auto 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.advice__image-wrapper {
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.25);
+}
+
+.advice__image {
+    width: 100%;
+    display: block;
+}
+
+.advice__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tip-card {
+    background-color: #fdfaf6;
+    border-radius: 16px;
+    padding: 1.3rem 1.6rem;
+    border: 1px solid #efe2d3;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.tip-card__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffe9dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c96b36;
+    flex-shrink: 0;
+}
+
+.tip-card__title {
+    font-size: 1rem;
+    color: #3b2a1a;
+    margin-bottom: 0.3rem;
+}
+
+.tip-card__text {
+    font-size: 0.9rem;
+    color: #7b6856;
+    line-height: 1.6;
+}
+
+.advice__cta {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background: linear-gradient(135deg, #d66a3a, #c04b5e, #5a7b4b);
+    border-radius: 20px;
+    padding: 2.3rem 1.8rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.advice__cta-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.advice__cta-text {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+.advice__cta-button {
+    min-width: 170px;
+}
+
+.tip-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+@media (min-width: 992px) {
+    .advice__main {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+
+    .advice__image-wrapper {
+        flex: 1;
+    }
+
+    .advice__cards {
+        flex: 1;
+    }
+
+    .advice__cta {
+        padding: 2.5rem 3rem;
+    }
+}
