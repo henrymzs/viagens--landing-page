@@ -1,12 +1,16 @@
-# 🌍 Desejo de Viagem - Landing Page de Viagens
+<h1 align="center">Desejo de Viagem - Landing Page de Viagens</h1>
 
-Uma landing page moderna e responsiva para uma agência de viagens fictícia, focada em destinos europeus encantadores. Desenvolvida como projeto prático de HTML, CSS e JavaScript.
+<p align="center">
+  Uma landing page moderna e responsiva para uma agência de viagens fictícia, focada em destinos europeus encantadores. Desenvolvida como projeto prático de HTML, CSS e JavaScript.
+</p>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-181717?style=flat&logo=HTML5" />
+  <img src="https://img.shields.io/badge/CSS-181717?style=flat&logo=CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-181717?style=flat&logo=JavaScript" />
+</p>
 
-## 📋 Sobre o Projeto
+### 📋 Sobre o Projeto
 
 Desejo de Viagem é uma landing page completa que apresenta destinos de viagem, equipe de especialistas e dicas valiosas para viajantes. O projeto foi desenvolvido com foco em:
 
@@ -16,7 +20,7 @@ Desejo de Viagem é uma landing page completa que apresenta destinos de viagem, 
 - ✅ Navegação interna suave
 - ✅ Animações e transições CSS
 
-## 🎯 Funcionalidades
+### 🎯 Funcionalidades
 
 - **Hero/Banner Principal**: Imagem de fundo impactante com texto sobreposto e call-to-action
 - **Menu Responsivo**: Navegação mobile com hamburguer menu
@@ -27,7 +31,7 @@ Desejo de Viagem é uma landing page completa que apresenta destinos de viagem, 
 - **Navegação Interna**: Links "voltar ao topo" em todas as seções
 - **Efeitos Hover**: Feedback visual em todos os elementos interativos
 
-## 🚀 Tecnologias Utilizadas
+### 🚀 Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica
 - **CSS3**: Estilização e animações
@@ -38,7 +42,7 @@ Desejo de Viagem é uma landing page completa que apresenta destinos de viagem, 
 - **JavaScript (Vanilla)**: Interatividade do menu mobile
 - **Font Awesome**: Ícones
 
-## 📁 Estrutura do Projeto
+### 📁 Estrutura do Projeto
 ```
 desejo-de-viagem/
 │
@@ -70,7 +74,7 @@ desejo-de-viagem/
 └── README.md
 ```
 
-## 💻 Como Executar
+### 💻 Como Executar
 
 1. **Clone o repositório**
 ```bash
@@ -83,7 +87,7 @@ git clone https://github.com/henrymzs/viagens--landing-page.git
 
 **Recomendado**: Use a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do VS Code para melhor experiência de desenvolvimento.
 
-## 📱 Responsividade
+### 📱 Responsividade
 
 O projeto é totalmente responsivo e foi testado nos seguintes breakpoints:
 
@@ -91,7 +95,7 @@ O projeto é totalmente responsivo e foi testado nos seguintes breakpoints:
 - **Tablet**: 600px - 991px
 - **Desktop**: ≥ 992px
 
-## 📸 Screenshots
+### 📸 Screenshots
 
 ### Desktop
 ![Desktop View](./src/assets/screenshots/desktop.png)
@@ -106,7 +110,7 @@ O projeto é totalmente responsivo e foi testado nos seguintes breakpoints:
 ![Mobile View](./src/assets/screenshots/tablet.png)
 
 
-## 👤 Autor
+### 👤 Autor
 
 **Seu Nome**
 
