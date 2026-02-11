@@ -112,7 +112,7 @@ O projeto é totalmente responsivo e foi testado nos seguintes breakpoints:
 
 ### 👤 Autor
 
-**Seu Nome**
+**Henry**
 
 - GitHub: [@henrymzs](https://github.com/henrymzs)
 - LinkedIn: [henry-kaua](https://linkedin.com/in/henry-kaua/)
